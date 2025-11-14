@@ -13,10 +13,11 @@ https://www.python.org/downloads/
 ```bash
 pip install tensorflow keras numpy pillow matplotlib opencv-python
 ```
-3️⃣ Prepare Dataset Structure
-Create this folder structure:
+### **3️⃣ Download / Prepare the Dataset**
 
-text
+The dataset folder must look **like this**:
+
+```text
 dataset/
     train/
         dogs/
@@ -24,8 +25,7 @@ dataset/
     test/
         dogs/
         cats/
-Place the dataset folder in the same directory as your Python script
-
+```
 
 
 
